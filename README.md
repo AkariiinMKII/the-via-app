@@ -1,8 +1,9 @@
-# [VIA Web Application](https://usevia.app) - Your keyboards best friend
+> [!NOTE]
+> This project uses an [unofficial library](https://github.com/AkariiinMKII/the-via-keyboards) that forked from [@the-via/keyboards](https://github.com/the-via/keyboards) and modified to support more keyboards.
+
+# [VIA Web Application](https://the-via-app.vercel.app/) - Your keyboards best friend
 
 ![android-chrome-192x192](https://user-images.githubusercontent.com/1714072/222621960-ddfb8ee6-a486-4c66-8852-b204ba7c807b.png)
-
-[![Azure Static Web Apps CI/CD](https://github.com/the-via/app/actions/workflows/azure.yml/badge.svg)](https://github.com/the-via/app/actions/workflows/azure.yml)
 
 VIA is a powerful, open-source web-based interface for configuring your [QMK](https://qmk.fm)-powered mechanical keyboard. It allows you to customize your keymaps, create macros, and adjust RGB settings (if it has RGB) on the fly, without needing to recompile your keyboard's firmware. This makes keyboard customization easier and more accessible for everyone.
 
@@ -18,7 +19,7 @@ Please follow our [Specification documentation](https://www.caniusevia.com/docs/
 
 ## Local development setup
 
-Start by cloning [`the-via/keyboards`](github.com/the-via/keyboards) then install dependencies with `npm install` and finally `npm run build`. You should see
+Start by cloning [`the-via/keyboards`](https://github.com/the-via/keyboards) then install dependencies with `npm install` and finally `npm run build`. You should see
 the output folder `dist`. This should be copied or symlinked to our repo's `public/definitions` folder.
 
 ```bash
