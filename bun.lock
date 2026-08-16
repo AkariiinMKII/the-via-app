@@ -1,6 +1,5 @@
 {
   "lockfileVersion": 1,
-  "configVersion": 0,
   "workspaces": {
     "": {
       "dependencies": {
@@ -37,7 +36,7 @@
         "styled-components": "^6.0.0-beta.5",
         "three": "^0.169.0",
         "use-resize-observer": "^9.1.0",
-        "via-keyboards": "github:the-via/keyboards",
+        "via-keyboards": "github:AkariiinMKII/the-via-keyboards",
         "wouter": "^2.10.0",
       },
       "devDependencies": {
@@ -1048,7 +1047,7 @@
 
     "uuid": ["uuid@9.0.1", "", { "bin": { "uuid": "dist/bin/uuid" } }, "sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA=="],
 
-    "via-keyboards": ["via-keyboards@github:the-via/keyboards#79ae8d2", { "dependencies": { "@the-via/reader": "^1.14.1", "@types/fs-extra": "^11.0.4", "@types/rimraf": "^4.0.5", "fs-extra": "^11.3.4", "glob": "^13.0.6", "json-stringify-pretty-compact": "^4.0.0", "tsx": "^4.21.0", "typescript": "^6.0.2" }, "bin": { "via-keyboards": "./bin/cli.js" } }, "the-via-keyboards-79ae8d2", "sha512-26c/byM6l+XfM+Corg+Pjp68cqY3eyhHHzDKTZhgfsjAKJ7yTSezrtCYTakideNbFHYcUrx15pngvUp4jWeq4Q=="],
+    "via-keyboards": ["via-keyboards@github:AkariiinMKII/the-via-keyboards#ef02380", { "dependencies": { "@the-via/reader": "^1.14.3", "@types/fs-extra": "^11.0.4", "@types/rimraf": "^4.0.5", "fs-extra": "^11.3.4", "glob": "^13.0.6", "json-stringify-pretty-compact": "^4.0.0", "tsx": "^4.21.0", "typescript": "^6.0.2" }, "bin": { "via-keyboards": "./bin/cli.js" } }, "AkariiinMKII-the-via-keyboards-ef02380"],
 
     "vite": ["vite@4.1.4", "", { "dependencies": { "esbuild": "^0.16.14", "postcss": "^8.4.21", "resolve": "^1.22.1", "rollup": "^3.10.0" }, "optionalDependencies": { "fsevents": "~2.3.2" }, "peerDependencies": { "@types/node": ">= 14", "less": "*", "sass": "*", "stylus": "*", "sugarss": "*", "terser": "^5.4.0" }, "optionalPeers": ["less", "sass", "stylus", "sugarss"], "bin": "bin/vite.js" }, "sha512-3knk/HsbSTKEin43zHu7jTwYWv81f8kgAL99G5NWBcA1LKvtvcVAC4JjBH1arBunO9kQka+1oGbrMKOjk4ZrBg=="],
 
@@ -1139,8 +1138,6 @@
     "three-stdlib/fflate": ["fflate@0.6.10", "", {}, "sha512-IQrh3lEPM93wVCEczc9SaAOvkmcoQn/G8Bo1e8ZPlY3X3bnAxWaBdvTdvM1hP62iZp0BXWDy4vTAy4fF0+Dlpg=="],
 
     "tunnel-rat/zustand": ["zustand@4.5.5", "", { "dependencies": { "use-sync-external-store": "1.2.2" }, "peerDependencies": { "@types/react": ">=16.8", "immer": ">=9.0.6", "react": ">=16.8" }, "optionalPeers": ["@types/react", "immer", "react"] }, "sha512-+0PALYNJNgK6hldkgDq2vLrw5f6g/jCInz52n9RTpropGgeAf/ioFUCdtsjCqu4gNhW9D01rUQBROoRjdzyn2Q=="],
-
-    "via-keyboards/@the-via/reader": ["@the-via/reader@1.14.3", "", { "dependencies": { "ajv": "^8.18.0", "ajv-formats": "^3.0.1", "invariant": "^2.2.4" } }, "sha512-dDjmq8TcaGkPWFC98NGJ1Gs+JDVOBOnpfUBjCWQP/w4CURWzkBq+EL6eNWDwrW+y/5eOOI5unsEsD2lqS3BNYA=="],
 
     "via-keyboards/fs-extra": ["fs-extra@11.3.6", "", { "dependencies": { "graceful-fs": "^4.2.0", "jsonfile": "^6.0.1", "universalify": "^2.0.0" } }, "sha512-w8ZNZr2mKIc7qeNaQ9AVPT1+iFaI+Avd4xudVOvdDJ8VytREi1Ft5Ih7hd9jjehod8vAM5GMsfQ/TpPf4EyoEA=="],
 
